@@ -44,12 +44,12 @@ let db, auth;
 async function main() {
   // Add Firebase project configuration object here
   const firebaseConfig = {
-    apiKey: 'AIzaSyDlE8bp06E0ezgcOj_UCUF9Kqyw1GnxLIk',
-    authDomain: 'fir-web-codelab-2f97e.firebaseapp.com',
-    projectId: 'fir-web-codelab-2f97e',
-    storageBucket: 'fir-web-codelab-2f97e.appspot.com',
-    messagingSenderId: '98149129426',
-    appId: '1:98149129426:web:e37e1f77e9043e930ba10b',
+    apiKey: 'YOUR_API_KEY',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    appId: 'YOUR_API_ID',
   };
 
   initializeApp(firebaseConfig);
